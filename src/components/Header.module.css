@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 4px 20px;
+}
+
+.heading {
+  position: absolute;
+  left: 159px;
+  top: 5px;
+  font-weight: 3000;
+  font-size: 16px;
+}
+
+.container_avatars {
+  display: flex;
+  position: absolute;
+  right: 20px;
+}
+
+.container_avatars > * {
+  margin-left: 12px;
+}
